@@ -1,0 +1,10 @@
+﻿@using Sitecore
+@using XCHorizon.Foundation.SitecoreExtensions.Extensions
+@model Sitecore.Mvc.Presentation.RenderingModel
+<div class="">
+    <div class="row">
+        <div class="col-md-12">
+            @Html.Sitecore().DynamicPlaceholder("col-huge", Model.Rendering.GetUseStaticPlaceholderNames())
+        </div>
+    </div>
+</div>

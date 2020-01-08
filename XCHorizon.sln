@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{5A8065EC-E895-49CE-A7E1-94F7C92982B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{E88B2EB2-EF0B-4C29-8E9F-F5D71C38E84B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{DF5FD417-FEC9-4EB9-99D7-DD1F0D7D211C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{0069B29B-C27C-4273-A78A-8720C7ABBD75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PageContent", "PageContent", "{DF3E465E-0E6F-4D1D-AC46-ED92E3AE5388}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XCHorizon.Feature.PageContent", "src\Feature\PageContent\code\XCHorizon.Feature.PageContent.csproj", "{8FAA6947-FC01-4ADB-8A1D-D60A18B64043}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{6DCF34C7-FA1A-45E7-9D26-9DF3C5B3AA38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XCHorizon.Project.Website", "src\Project\Website\code\XCHorizon.Project.Website.csproj", "{A993976E-9314-404F-96DE-F7F375B2ACED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{B4E7B9E8-E2D5-479B-A54C-1DAF85F8F40D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XCHorizon.Common.Website", "src\Project\Common\code\XCHorizon.Common.Website.csproj", "{C4CC7624-CD7D-44FA-847F-02D6FC7A4B60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SitecoreExtensions", "SitecoreExtensions", "{D2FD3597-D125-41FC-A5F0-11F65837052B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XCHorizon.Foundation.SitecoreExtensions", "src\Foundation\SitecoreExtensions\code\XCHorizon.Foundation.SitecoreExtensions.csproj", "{F0E005ED-1FD1-459B-8847-8D79BD883E3A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Navigation", "Navigation", "{6D788A66-FBEC-4409-B513-6D7883BBFBA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XCHorizon.Feature.Navigation", "src\Feature\Navigation\code\XCHorizon.Feature.Navigation.csproj", "{4B9FDD07-2833-479A-9162-BA8B3788167B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FAA6947-FC01-4ADB-8A1D-D60A18B64043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FAA6947-FC01-4ADB-8A1D-D60A18B64043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FAA6947-FC01-4ADB-8A1D-D60A18B64043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FAA6947-FC01-4ADB-8A1D-D60A18B64043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A993976E-9314-404F-96DE-F7F375B2ACED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A993976E-9314-404F-96DE-F7F375B2ACED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A993976E-9314-404F-96DE-F7F375B2ACED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A993976E-9314-404F-96DE-F7F375B2ACED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4CC7624-CD7D-44FA-847F-02D6FC7A4B60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4CC7624-CD7D-44FA-847F-02D6FC7A4B60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4CC7624-CD7D-44FA-847F-02D6FC7A4B60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4CC7624-CD7D-44FA-847F-02D6FC7A4B60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0E005ED-1FD1-459B-8847-8D79BD883E3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0E005ED-1FD1-459B-8847-8D79BD883E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0E005ED-1FD1-459B-8847-8D79BD883E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0E005ED-1FD1-459B-8847-8D79BD883E3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B9FDD07-2833-479A-9162-BA8B3788167B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B9FDD07-2833-479A-9162-BA8B3788167B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B9FDD07-2833-479A-9162-BA8B3788167B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B9FDD07-2833-479A-9162-BA8B3788167B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DF3E465E-0E6F-4D1D-AC46-ED92E3AE5388} = {E88B2EB2-EF0B-4C29-8E9F-F5D71C38E84B}
+		{8FAA6947-FC01-4ADB-8A1D-D60A18B64043} = {DF3E465E-0E6F-4D1D-AC46-ED92E3AE5388}
+		{6DCF34C7-FA1A-45E7-9D26-9DF3C5B3AA38} = {0069B29B-C27C-4273-A78A-8720C7ABBD75}
+		{A993976E-9314-404F-96DE-F7F375B2ACED} = {6DCF34C7-FA1A-45E7-9D26-9DF3C5B3AA38}
+		{B4E7B9E8-E2D5-479B-A54C-1DAF85F8F40D} = {0069B29B-C27C-4273-A78A-8720C7ABBD75}
+		{C4CC7624-CD7D-44FA-847F-02D6FC7A4B60} = {B4E7B9E8-E2D5-479B-A54C-1DAF85F8F40D}
+		{D2FD3597-D125-41FC-A5F0-11F65837052B} = {DF5FD417-FEC9-4EB9-99D7-DD1F0D7D211C}
+		{F0E005ED-1FD1-459B-8847-8D79BD883E3A} = {D2FD3597-D125-41FC-A5F0-11F65837052B}
+		{6D788A66-FBEC-4409-B513-6D7883BBFBA8} = {E88B2EB2-EF0B-4C29-8E9F-F5D71C38E84B}
+		{4B9FDD07-2833-479A-9162-BA8B3788167B} = {6D788A66-FBEC-4409-B513-6D7883BBFBA8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B2DC6D6-A757-4AEC-B44D-50035201939C}
+	EndGlobalSection
+EndGlobal
