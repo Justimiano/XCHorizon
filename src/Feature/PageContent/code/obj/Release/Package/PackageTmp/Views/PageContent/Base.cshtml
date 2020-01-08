@@ -1,9 +1,9 @@
 ﻿@using Sitecore.Mvc
 @model Sitecore.Mvc.Presentation.RenderingModel
 
-<div class="content">
-    <h2>@Html.Sitecore().Field("Title")</h2>
-    <p>
-        @Html.Sitecore().Field("Text")
-    </p>
+<div class="jumbotron">
+    <h1 class="display-4">@Html.Sitecore().Field("Title")</h1>
+    <p class="lead">@Html.Sitecore().Field("Description")</p>
+    <hr class="my-4">
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
 </div>

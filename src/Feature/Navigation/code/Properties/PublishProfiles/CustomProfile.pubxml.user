@@ -156,6 +156,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/roslyn/VBCSCompiler.exe.config">
       <publishTime>05/24/2018 13:38:24</publishTime>
     </File>
+    <File Include="bin/Sitecore.Kernel.dll">
+      <publishTime>11/09/2019 18:12:26</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Mvc.dll">
+      <publishTime>11/12/2019 19:39:12</publishTime>
+    </File>
     <File Include="bin/System.Web.Helpers.dll">
       <publishTime>11/28/2018 12:04:24</publishTime>
     </File>
@@ -175,13 +181,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/28/2018 12:04:24</publishTime>
     </File>
     <File Include="bin/XCHorizon.Feature.Navigation.dll">
-      <publishTime>01/07/2020 17:54:55</publishTime>
+      <publishTime>01/08/2020 12:52:30</publishTime>
     </File>
     <File Include="bin/XCHorizon.Feature.Navigation.pdb">
-      <publishTime>01/07/2020 17:54:55</publishTime>
+      <publishTime>01/08/2020 12:52:30</publishTime>
+    </File>
+    <File Include="bin/XCHorizon.Foundation.SitecoreExtensions.dll">
+      <publishTime>01/08/2020 12:52:30</publishTime>
+    </File>
+    <File Include="bin/XCHorizon.Foundation.SitecoreExtensions.dll.config">
+      <publishTime>01/07/2020 14:34:21</publishTime>
+    </File>
+    <File Include="bin/XCHorizon.Foundation.SitecoreExtensions.pdb">
+      <publishTime>01/08/2020 12:52:30</publishTime>
     </File>
     <File Include="Views/Navigation/MainMenu.cshtml">
-      <publishTime>01/07/2020 17:54:47</publishTime>
+      <publishTime>01/08/2020 12:42:36</publishTime>
     </File>
   </ItemGroup>
 </Project>

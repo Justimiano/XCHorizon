@@ -181,13 +181,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/28/2018 12:04:24</publishTime>
     </File>
     <File Include="bin/XCHorizon.Feature.PageContent.dll">
-      <publishTime>01/07/2020 17:47:12</publishTime>
+      <publishTime>01/08/2020 12:48:21</publishTime>
     </File>
     <File Include="bin/XCHorizon.Feature.PageContent.pdb">
-      <publishTime>01/07/2020 17:47:12</publishTime>
+      <publishTime>01/08/2020 12:48:21</publishTime>
     </File>
     <File Include="Views/PageContent/Base.cshtml">
-      <publishTime>01/06/2020 19:55:16</publishTime>
+      <publishTime>01/08/2020 12:48:09</publishTime>
     </File>
     <File Include="Views/PageContent/Title.cshtml">
       <publishTime>01/06/2020 19:55:24</publishTime>

@@ -1,11 +1,14 @@
-﻿
+﻿@using Sitecore
+@using XCHorizon.Foundation.SitecoreExtensions.Extensions
+@using XCHorizon.Feature.Navigation
+@model Sitecore.Data.Items.Item
 @{
     Layout = null;
 }
 
 <!-- Image and text -->
-<nav class="navbar navbar-light bg-light">
+<nav class="navbar navbar-dark bg-dark">
     <a class="navbar-brand" href="#">
-        <img src="~/assets/logo/XCentium logo_DCG.jpg" width="100" height="100" class="d-inline-block align-top" alt="" />
+        @Html.Sitecore().ImageField(Templates.Site.Fields.Logo, Model , mw: 150, cssClass: "img-responsive")
     </a>
 </nav>

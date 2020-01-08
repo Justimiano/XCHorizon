@@ -1,4 +1,5 @@
-﻿using System.Web.Mvc;
+﻿using Sitecore.Mvc.Presentation;
+using System.Web.Mvc;
 
 namespace XCHorizon.Feature.Navigation.Controllers
 {
@@ -7,7 +8,7 @@ namespace XCHorizon.Feature.Navigation.Controllers
         // GET: Navigation
         public ActionResult MainMenu()
         {
-            return View("~/Views/Navigation/MainMenu.cshtml");
+            return View("~/Views/Navigation/MainMenu.cshtml", RenderingContext.Current.ContextItem);
         }
     }
 }

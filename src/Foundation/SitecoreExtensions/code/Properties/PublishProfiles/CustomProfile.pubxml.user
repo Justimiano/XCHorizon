@@ -178,10 +178,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/28/2018 12:04:24</publishTime>
     </File>
     <File Include="bin/XCHorizon.Foundation.SitecoreExtensions.dll">
-      <publishTime>01/07/2020 17:57:01</publishTime>
+      <publishTime>01/08/2020 12:16:22</publishTime>
     </File>
     <File Include="bin/XCHorizon.Foundation.SitecoreExtensions.pdb">
-      <publishTime>01/07/2020 17:57:01</publishTime>
+      <publishTime>01/08/2020 12:16:22</publishTime>
     </File>
   </ItemGroup>
 </Project>

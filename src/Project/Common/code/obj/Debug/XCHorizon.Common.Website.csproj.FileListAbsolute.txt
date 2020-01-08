@@ -57,6 +57,9 @@ C:\XC\Source\XCHorizon\src\Project\Common\code\bin\System.Web.Razor.dll
 C:\XC\Source\XCHorizon\src\Project\Common\code\bin\System.Web.Webpages.Deployment.dll
 C:\XC\Source\XCHorizon\src\Project\Common\code\bin\System.Web.Webpages.dll
 C:\XC\Source\XCHorizon\src\Project\Common\code\bin\System.Web.Webpages.Razor.dll
+C:\XC\Source\XCHorizon\src\Project\Common\code\bin\XCHorizon.Foundation.SitecoreExtensions.dll
+C:\XC\Source\XCHorizon\src\Project\Common\code\bin\XCHorizon.Foundation.SitecoreExtensions.pdb
+C:\XC\Source\XCHorizon\src\Project\Common\code\bin\XCHorizon.Foundation.SitecoreExtensions.dll.config
 C:\XC\Source\XCHorizon\src\Project\Common\code\bin\Sitecore.Kernel.xml
 C:\XC\Source\XCHorizon\src\Project\Common\code\bin\System.Web.Mvc.xml
 C:\XC\Source\XCHorizon\src\Project\Common\code\bin\System.Web.Razor.xml
@@ -70,6 +73,3 @@ C:\XC\Source\XCHorizon\src\Project\Common\code\obj\Debug\XCHorizon.Common.Websit
 C:\XC\Source\XCHorizon\src\Project\Common\code\obj\Debug\XCHorizon.Common.Website.csproj.CopyComplete
 C:\XC\Source\XCHorizon\src\Project\Common\code\obj\Debug\XCHorizon.Common.Website.dll
 C:\XC\Source\XCHorizon\src\Project\Common\code\obj\Debug\XCHorizon.Common.Website.pdb
-C:\XC\Source\XCHorizon\src\Project\Common\code\bin\XCHorizon.Foundation.SitecoreExtensions.dll
-C:\XC\Source\XCHorizon\src\Project\Common\code\bin\XCHorizon.Foundation.SitecoreExtensions.pdb
-C:\XC\Source\XCHorizon\src\Project\Common\code\bin\XCHorizon.Foundation.SitecoreExtensions.dll.config

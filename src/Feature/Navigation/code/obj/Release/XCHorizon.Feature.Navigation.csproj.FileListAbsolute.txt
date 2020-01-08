@@ -67,3 +67,9 @@ C:\XC\Source\XCHorizon\src\Feature\Navigation\code\obj\Release\XCHorizon.Feature
 C:\XC\Source\XCHorizon\src\Feature\Navigation\code\obj\Release\XCHorizon.Feature.Navigation.csproj.CopyComplete
 C:\XC\Source\XCHorizon\src\Feature\Navigation\code\obj\Release\XCHorizon.Feature.Navigation.dll
 C:\XC\Source\XCHorizon\src\Feature\Navigation\code\obj\Release\XCHorizon.Feature.Navigation.pdb
+C:\XC\Source\XCHorizon\src\Feature\Navigation\code\bin\Sitecore.Kernel.dll
+C:\XC\Source\XCHorizon\src\Feature\Navigation\code\bin\Sitecore.Mvc.dll
+C:\XC\Source\XCHorizon\src\Feature\Navigation\code\bin\Sitecore.Kernel.xml
+C:\XC\Source\XCHorizon\src\Feature\Navigation\code\bin\XCHorizon.Foundation.SitecoreExtensions.dll
+C:\XC\Source\XCHorizon\src\Feature\Navigation\code\bin\XCHorizon.Foundation.SitecoreExtensions.pdb
+C:\XC\Source\XCHorizon\src\Feature\Navigation\code\bin\XCHorizon.Foundation.SitecoreExtensions.dll.config
