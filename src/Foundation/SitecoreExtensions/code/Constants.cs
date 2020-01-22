@@ -6,5 +6,12 @@
         {
             public static string UseStaticPlaceholderNames => "UseStaticPlaceholderNames";
         }
+
+        public struct WildCards
+        {
+
+        }
+
+        
     }
 }

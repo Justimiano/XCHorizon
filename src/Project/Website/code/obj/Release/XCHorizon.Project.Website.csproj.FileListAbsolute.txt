@@ -66,8 +66,8 @@ C:\XC\Source\XCHorizon\src\Project\Website\code\bin\System.Web.Webpages.Deployme
 C:\XC\Source\XCHorizon\src\Project\Website\code\bin\System.Web.Webpages.Razor.xml
 C:\XC\Source\XCHorizon\src\Project\Website\code\bin\System.Web.Helpers.xml
 C:\XC\Source\XCHorizon\src\Project\Website\code\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\XC\Source\XCHorizon\src\Project\Website\code\obj\Release\XCHorizon.Project.Website.csprojAssemblyReference.cache
 C:\XC\Source\XCHorizon\src\Project\Website\code\obj\Release\XCHorizon.Project.Website.csproj.CoreCompileInputs.cache
 C:\XC\Source\XCHorizon\src\Project\Website\code\obj\Release\XCHorizon.Project.Website.csproj.CopyComplete
 C:\XC\Source\XCHorizon\src\Project\Website\code\obj\Release\XCHorizon.Project.Website.dll
 C:\XC\Source\XCHorizon\src\Project\Website\code\obj\Release\XCHorizon.Project.Website.pdb
-C:\XC\Source\XCHorizon\src\Project\Website\code\obj\Release\XCHorizon.Project.Website.csprojAssemblyReference.cache

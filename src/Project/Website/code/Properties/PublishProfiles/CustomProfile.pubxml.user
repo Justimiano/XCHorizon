@@ -181,10 +181,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/28/2018 12:04:24</publishTime>
     </File>
     <File Include="bin/XCHorizon.Project.Website.dll">
-      <publishTime>01/07/2020 17:34:20</publishTime>
+      <publishTime>01/21/2020 18:08:36</publishTime>
     </File>
     <File Include="bin/XCHorizon.Project.Website.pdb">
-      <publishTime>01/07/2020 17:34:20</publishTime>
+      <publishTime>01/21/2020 18:08:36</publishTime>
     </File>
     <File Include="Content/bootstrap-grid.css">
       <publishTime>01/07/2020 12:53:51</publishTime>

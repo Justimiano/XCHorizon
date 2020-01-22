@@ -9,6 +9,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <_PublishTargetUrl>https://XCHorizon.sc.dev.local/</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
+    <File Include="App_Config/Include/Foundation/XCHorizon.Foundation.WildCard.config">
+      <publishTime>01/21/2020 17:15:52</publishTime>
+    </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
       <publishTime>05/24/2018 13:38:22</publishTime>
     </File>
@@ -153,6 +156,15 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/roslyn/VBCSCompiler.exe.config">
       <publishTime>05/24/2018 13:38:24</publishTime>
     </File>
+    <File Include="bin/Sitecore.Buckets.dll">
+      <publishTime>11/11/2019 18:58:16</publishTime>
+    </File>
+    <File Include="bin/Sitecore.ContentSearch.dll">
+      <publishTime>11/12/2019 18:59:06</publishTime>
+    </File>
+    <File Include="bin/Sitecore.ContentSearch.Linq.dll">
+      <publishTime>11/12/2019 18:58:42</publishTime>
+    </File>
     <File Include="bin/Sitecore.Kernel.dll">
       <publishTime>11/09/2019 18:12:26</publishTime>
     </File>
@@ -178,10 +190,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/28/2018 12:04:24</publishTime>
     </File>
     <File Include="bin/XCHorizon.Foundation.SitecoreExtensions.dll">
-      <publishTime>01/08/2020 12:16:22</publishTime>
+      <publishTime>01/21/2020 18:08:35</publishTime>
     </File>
     <File Include="bin/XCHorizon.Foundation.SitecoreExtensions.pdb">
-      <publishTime>01/08/2020 12:16:22</publishTime>
+      <publishTime>01/21/2020 18:08:35</publishTime>
     </File>
   </ItemGroup>
 </Project>

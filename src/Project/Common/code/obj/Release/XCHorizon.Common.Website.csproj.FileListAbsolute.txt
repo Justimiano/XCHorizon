@@ -58,6 +58,9 @@ C:\XC\Source\XCHorizon\src\Project\Common\code\bin\System.Web.Webpages.Deploymen
 C:\XC\Source\XCHorizon\src\Project\Common\code\bin\System.Web.Webpages.dll
 C:\XC\Source\XCHorizon\src\Project\Common\code\bin\System.Web.Webpages.Razor.dll
 C:\XC\Source\XCHorizon\src\Project\Common\code\bin\XCHorizon.Foundation.SitecoreExtensions.dll
+C:\XC\Source\XCHorizon\src\Project\Common\code\bin\Sitecore.ContentSearch.dll
+C:\XC\Source\XCHorizon\src\Project\Common\code\bin\Sitecore.Buckets.dll
+C:\XC\Source\XCHorizon\src\Project\Common\code\bin\Sitecore.ContentSearch.Linq.dll
 C:\XC\Source\XCHorizon\src\Project\Common\code\bin\XCHorizon.Foundation.SitecoreExtensions.pdb
 C:\XC\Source\XCHorizon\src\Project\Common\code\bin\XCHorizon.Foundation.SitecoreExtensions.dll.config
 C:\XC\Source\XCHorizon\src\Project\Common\code\bin\Sitecore.Kernel.xml
@@ -68,6 +71,9 @@ C:\XC\Source\XCHorizon\src\Project\Common\code\bin\System.Web.Webpages.Deploymen
 C:\XC\Source\XCHorizon\src\Project\Common\code\bin\System.Web.Webpages.Razor.xml
 C:\XC\Source\XCHorizon\src\Project\Common\code\bin\System.Web.Helpers.xml
 C:\XC\Source\XCHorizon\src\Project\Common\code\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\XC\Source\XCHorizon\src\Project\Common\code\bin\Sitecore.ContentSearch.xml
+C:\XC\Source\XCHorizon\src\Project\Common\code\bin\Sitecore.Buckets.xml
+C:\XC\Source\XCHorizon\src\Project\Common\code\bin\Sitecore.ContentSearch.Linq.xml
 C:\XC\Source\XCHorizon\src\Project\Common\code\obj\Release\XCHorizon.Common.Website.csprojAssemblyReference.cache
 C:\XC\Source\XCHorizon\src\Project\Common\code\obj\Release\XCHorizon.Common.Website.csproj.CoreCompileInputs.cache
 C:\XC\Source\XCHorizon\src\Project\Common\code\obj\Release\XCHorizon.Common.Website.csproj.CopyComplete
