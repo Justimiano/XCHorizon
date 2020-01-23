@@ -1,0 +1,7 @@
+
+*.pdb
+*.dll
+*.out
+*.cache
+.vs/XCHorizon/v16/.suo
+*.ide
