@@ -4,6 +4,7 @@ using Sitecore.ContentSearch;
 using Sitecore.ContentSearch.SearchTypes;
 using Sitecore.Data.Fields;
 using Sitecore.Data.Items;
+using Sitecore.Links;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -83,5 +84,49 @@ namespace XCHorizon.Foundation.SitecoreExtensions.WildCard
             return itemRelativePath;
         }
 
+        public static string GetWildcardItemUrl(Sitecore.Data.Items.Item wildcardItem, Item realItem, bool useDisplayName, UrlOptions urlOptions = null)
+        {
+            if (urlOptions == null)
+            {
+                urlOptions = UrlOptions.DefaultOptions;
+            }
+
+            urlOptions.AlwaysIncludeServerUrl = true;
+            if (wildcardItem == null || realItem == null)
+            {
+                return string.Empty;
+            }
+
+            var scLinkProvider = new LinkProvider();
+            string wildcardUrl = scLinkProvider.GetItemUrl(wildcardItem, urlOptions);
+            int wildcardCount = wildcardUrl.Split('/').Where(x => x == ",-w-,").Count();
+            wildcardUrl = wildcardUrl.Replace(",-w-,", string.Empty);
+
+            Uri uri = new Uri(wildcardUrl);
+            List<string> wildcardItemPathParts = uri.AbsolutePath.Split(new char[] { '/' }, StringSplitOptions.RemoveEmptyEntries).ToList();
+            ReferenceField wildcardDatasource = wildcardItem.Fields[Templates.WildCard.Fields.WildCardDatasourceField];
+            if (wildcardDatasource != null)
+            {
+                List<string> realItemPathParts = new List<string>();
+                if (realItem.Axes.GetAncestors().Any(a => a.ID == wildcardDatasource.TargetID))
+                {
+                    Item ancestor = realItem.Parent;
+                    int idx = 1;
+                    while (ancestor.ID != wildcardDatasource.TargetID && idx < wildcardCount)
+                    {
+                        idx++;
+                        realItemPathParts.Insert(0, useDisplayName ? ancestor.DisplayName : ancestor.Name);
+                        ancestor = ancestor.Parent;
+                    }
+                }
+
+                string itemUrlName = useDisplayName ? realItem.DisplayName : realItem.Name;
+                realItemPathParts.Add(itemUrlName);
+                wildcardItemPathParts.AddRange(realItemPathParts);
+            }
+
+            UriBuilder uriBuilder = new UriBuilder { Scheme = uri.Scheme, Host = uri.Host, Port = uri.Port, Path = string.Join("/", wildcardItemPathParts) };
+            return uriBuilder.Uri.ToString();
+        }
     }
 }

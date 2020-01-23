@@ -133,3 +133,4 @@ C:\XC\Source\XCHorizon\src\Feature\PageContent\code\obj\Debug\Package\PackageTmp
 C:\XC\Source\XCHorizon\src\Feature\PageContent\code\obj\Debug\Package\PackageTmp\bin\roslyn\vbc.rsp
 C:\XC\Source\XCHorizon\src\Feature\PageContent\code\obj\Debug\Package\PackageTmp\bin\roslyn\VBCSCompiler.exe
 C:\XC\Source\XCHorizon\src\Feature\PageContent\code\obj\Debug\Package\PackageTmp\bin\roslyn\VBCSCompiler.exe.config
+C:\XC\Source\XCHorizon\src\Feature\PageContent\code\obj\Debug\Package\PackageTmp\Views\PageContent\EventHeader.cshtml

@@ -113,6 +113,7 @@
     <Content Include="Views\PageContent\Base.cshtml" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <Content Include="Views\PageContent\Title.cshtml" />
+    <Content Include="Views\PageContent\EventHeader.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

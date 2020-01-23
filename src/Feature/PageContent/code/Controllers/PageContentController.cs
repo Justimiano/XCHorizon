@@ -10,5 +10,10 @@ namespace XCHorizon.Feature.PageContent.Controllers
         {
             return View("~/Views/PageContent/Title.cshtml");
         }
+
+        public ActionResult EventHeader ()
+        {
+            return View("~/Views/PageContent/EventHeader.cshtml");
+        }
     }
 }

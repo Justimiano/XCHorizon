@@ -3,6 +3,7 @@ using Sitecore.Pipelines.HttpRequest;
 using System;
 using System.Linq;
 using System.Web;
+using XCHorizon.Foundation.SitecoreExtensions.WildCard;
 
 namespace XCHorizon.Foundation.SitecoreExtensions.Pipelines.HttpRequest
 {
@@ -11,13 +12,13 @@ namespace XCHorizon.Foundation.SitecoreExtensions.Pipelines.HttpRequest
         public override void Process(HttpRequestArgs args)
         {
             // WildCard Item: Only handler wildcard item.
-            if(!WildCard.WildCardProvider.IsWildcardItem(Context.Item))
+            if(!WildCardProvider.IsWildcardItem(Context.Item))
             {
                 return;
             }
 
             string itemName = ResolveItemNameFromUrl(args.HttpContext);
-            var datasourceItem = WildCard.WildCardProvider.GetDatasourceItem(Context.Item, itemName);
+            var datasourceItem = WildCardProvider.GetDatasourceItem(Context.Item, itemName);
 
             if (datasourceItem == null)
             {

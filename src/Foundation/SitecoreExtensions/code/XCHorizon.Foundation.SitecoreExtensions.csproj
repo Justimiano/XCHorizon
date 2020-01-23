@@ -129,7 +129,9 @@
     <Compile Include="Indexing\IndexedItem.cs" />
     <Compile Include="Pipelines\HttpRequest\WildcardItemResolver.cs" />
     <Compile Include="Pipelines\Mvc\GetPageItem\GetFromRouteUrl .cs" />
+    <Compile Include="Pipelines\Mvc\GetRenderer\WildCardDataSource.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Providers\LinkProvider.cs" />
     <Compile Include="Templates.cs" />
     <Compile Include="WildCard\WildCardProvider.cs" />
   </ItemGroup>

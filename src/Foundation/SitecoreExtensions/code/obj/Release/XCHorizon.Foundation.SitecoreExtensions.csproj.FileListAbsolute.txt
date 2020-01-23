@@ -75,4 +75,3 @@ C:\XC\Source\XCHorizon\src\Foundation\SitecoreExtensions\code\obj\Release\XCHori
 C:\XC\Source\XCHorizon\src\Foundation\SitecoreExtensions\code\obj\Release\XCHorizon.Foundation.SitecoreExtensions.csproj.CopyComplete
 C:\XC\Source\XCHorizon\src\Foundation\SitecoreExtensions\code\obj\Release\XCHorizon.Foundation.SitecoreExtensions.dll
 C:\XC\Source\XCHorizon\src\Foundation\SitecoreExtensions\code\obj\Release\XCHorizon.Foundation.SitecoreExtensions.pdb
-C:\XC\Source\XCHorizon\src\Foundation\SitecoreExtensions\code\obj\Release\XCHorizon.Foundation.SitecoreExtensions.csprojAssemblyReference.cache
