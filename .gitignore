@@ -5,3 +5,5 @@
 *.cache
 .vs/XCHorizon/v16/.suo
 *.ide
+*.pdb
+*.dll

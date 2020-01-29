@@ -7,8 +7,12 @@
 }
 
 <!-- Image and text -->
-<nav class="navbar navbar-dark bg-dark">
+<nav class="navbar navbar-dark bg-light">
     <a class="navbar-brand" href="#">
         @Html.Sitecore().ImageField(Templates.Site.Fields.Logo_FieldName, Model , mw: 150, cssClass: "img-responsive")
     </a>
 </nav>
+
+<div class="content">
+    <h2>@Html.Sitecore().Field("Title")</h2>
+</div>

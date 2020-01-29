@@ -1,6 +1,8 @@
 ﻿using Sitecore.Data.Fields;
 using Sitecore.Mvc.Pipelines.Response.GetRenderer;
+using System;
 using System.Linq;
+using System.Web;
 
 namespace XCHorizon.Foundation.SitecoreExtensions.Pipelines.Mvc.GetRenderer
 {
@@ -13,18 +15,20 @@ namespace XCHorizon.Foundation.SitecoreExtensions.Pipelines.Mvc.GetRenderer
             {
                 return;
             }
-            ReferenceField datasourceReference = args.PageContext.Item.Fields[Templates.WildCard.Fields.WildCardDatasourceField];
-            string dataSourcePath = string.Format("{0}/{1}", datasourceReference?.TargetItem?.Paths.FullPath, args.PageContext.RequestContext.HttpContext.Request.Url.LocalPath.Split('/').Last());
 
-            var dataSourceItem = Sitecore.Context.Database.GetItem(dataSourcePath);
+
+            var itemName = ResolveItemNameFromUrl(args.PageContext?.RequestContext?.HttpContext);
+            var dataSourceItem = WildCard.WildCardProvider.GetDatasourceItem(args.PageContext.Item, itemName);
             if (dataSourceItem != null)
             {
-                args.Rendering.DataSource = dataSourcePath;
+                args.Rendering.DataSource = dataSourceItem.Paths.FullPath;
             }
-            else
-            {
-                // process 404 page not found
-            }
+        }
+
+        private string ResolveItemNameFromUrl(HttpContextBase context)
+        {
+            string name = context.Request.Url.AbsolutePath.Split(new char[] { '/' }, StringSplitOptions.RemoveEmptyEntries).LastOrDefault();
+            return HttpUtility.UrlDecode(name);
         }
     }
 }
